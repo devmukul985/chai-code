@@ -11,6 +11,9 @@ app.get('/',(req,res)=>{
 app.get('/login',(req,res)=>{
     res.send('<h1>This is login page</h1>');
 });
+app.get('/twitter',(req,res)=>{
+    res.send('<h1>This is twitter page</h1>');
+});
 
 app.listen(port,()=>{
 console.log('Application running on port:',port);
